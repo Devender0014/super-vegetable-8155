@@ -7,6 +7,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Header from './components/header2';
 import Header3 from './components/header3';
 import Trending from './components/Trending';
+import CommunityPost from './components/communityPosts';
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Header/>
           <Header3/>
           <Trending/>
+          <CommunityPost/>
       </ChakraProvider>
       
     </div>
