@@ -16,9 +16,16 @@ const imageBrand = {
 }
 
 
+const head = {
+    borderTop: "1px solid black",
+    borderBottom:  "1px solid black",
+    padding : "8px",
+    
+}
+
     return (
         <div style={heading}>
-            <h1><b>Featured Partners</b></h1>
+            <h1><b style={head}>Featured Partners</b></h1>
             <h3>Compare across our 500+ partner stores to find the products you want at the best price.</h3>
             <div style={imageBrand}>
                 <img src="https://cdn.modesens.com/banner/20220708-SSENSE-logo.png" alt="" />

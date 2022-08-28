@@ -1,6 +1,6 @@
 // import LoginPage from './login';
 import Login2 from './login2';
-
+// import Men from '../mens/men';
 
 function Navbar2(){
 
@@ -49,7 +49,7 @@ const color = {
             <div style={main2}>
                 <img style={image} src="https://cdn.modesens.com/static/img/20190228newlogo-black.svg" alt="" />
                 <p>WOMEN</p>
-                <p>MEN</p>
+                <p><a href="../mens/men"> MEN</a></p>
                 <p>BEAUTY</p>
                 <p>KIDS</p>
                 <p>HOME</p>

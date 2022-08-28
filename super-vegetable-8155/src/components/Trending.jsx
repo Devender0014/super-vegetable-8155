@@ -28,7 +28,8 @@ function Trending(){
     }
     const div ={
         // border : "1px solid black",
-        boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+        boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+        padding : "10px"
 
     }
     
@@ -42,14 +43,20 @@ function Trending(){
         margin : "auto",
         marginTop : "10px"
     }
+    const head = {
+        borderTop: "1px solid black",
+        borderBottom:  "1px solid black",
+        padding : "8px",
+        
+    }
 
     return (
         <div style={heading}>
-            <h1>Trending Now</h1>
+            <h1 style={head}>Trending Now</h1>
             <div  style={trending}>
                 <div style={div}>
                     <img style={img} src="https://cdn.modesens.com/availability/50934261?w=400&" alt="" />
-                    <h3>BURBERRY</h3>
+                    <h3><b>BURBERRY</b></h3>
                     <p>Ansdell Logo-print Cotton-jersey Hoodie In Black</p>
                     <p>$505 - $840</p>
                     <p>compare 25 stores</p>
@@ -57,7 +64,7 @@ function Trending(){
                 </div>
                 <div style={div}>
                      <img style={img} src="https://cdn.modesens.com/availability/40117155_1?w=400&" alt="" />
-                     <h3>GIVENCHY</h3>
+                     <h3><b>GIVENCHY</b></h3>
                     <p>Logo-embroidered Cotton-twill Baseball Cap In Black</p>
                     <p>$305 - $480</p>
                     <p>compare 21 stores</p>
@@ -65,7 +72,7 @@ function Trending(){
                 </div>
                 <div style={div}>
                     <img style={img} src="https://cdn.modesens.com/availability/53784355?w=400&" alt="" />
-                    <h3>VERSACE</h3>
+                    <h3><b>VERSACE</b></h3>
                     <p>Odissea Medusa Head Lace-up Sneakers In Black</p>
                     <p>$518 - $925</p>
                     <p>compare 25 stores</p>
@@ -73,7 +80,7 @@ function Trending(){
                 </div>
                 <div style={div}>
                     <img style={img} src="https://cdn.modesens.com/product/26503846_13?w=400&" alt="" />
-                    <h3>GIVENCHY</h3>
+                    <h3><b>GIVENCHY</b></h3>
                     <p>Logo-intarsia Waffle-knit Cotton Sweater In Black</p>
                     <p>$664 - $1220</p>
                     <p>Shop From 19 Stores</p>

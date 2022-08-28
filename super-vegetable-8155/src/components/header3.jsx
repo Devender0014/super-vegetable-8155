@@ -38,10 +38,16 @@ function Header3 (){
         // border : "1px solid black",
 
     }
+    const head = {
+        borderTop: "1px solid black",
+        borderBottom:  "1px solid black",
+        padding : "8px",
+        
+    }
 
     return (
         <div style={heading}>
-            <h2>Speial Offers</h2>
+            <h2 style={head}>Speial Offers</h2>
             <div style={imageBrand}>
                 <div style={border}> 
                     <img style={img} src="https://modesens.com/banner/11916/getimg/?img=%2Fbanner%2F20220803-modesens-Sale-280x400-EN.jpg" alt="" />

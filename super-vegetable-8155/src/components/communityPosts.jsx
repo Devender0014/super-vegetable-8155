@@ -34,9 +34,16 @@ function CommunityPost(){
         marginTop : "30px"
     }
 
+    const head = {
+        borderTop: "1px solid black",
+        borderBottom:  "1px solid black",
+        padding : "8px",
+        
+    }
+
     return (
         <div style={heading}>
-                <h1>Community Posts</h1>
+                <h1 style={head}>Community Posts</h1>
                 <div style={main}>
                     <div>
                         <img style={img} src="https://cdn.modesens.com/umedia/1625472s?w=400&" alt="" />
